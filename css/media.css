@@ -1,0 +1,659 @@
+@media screen and (max-width:600px) {
+    .navbar{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .navbar ul {
+        visibility: hidden;
+    }
+    .unvisible{
+        visibility: visible;
+    }
+    .home{
+        flex-direction: column;
+        height: 70%;
+    }
+    .home  > a{ 
+        width: 32%;
+        padding: 3%;
+        font-size: 1.2rem;
+    }
+    .home p {
+        font-size: 1.3rem;
+    }
+    .home   p:nth-child(1) {
+        font-size: 1.6rem;
+    }
+    .home h2{
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    .about{
+     flex-direction: column;
+    }
+    .about1{
+        width: 90%;
+        justify-self: center;
+        align-items: flex-start;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .about2{
+        width: 90%;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .about2 a {
+        width: 53%;
+        font-weight: 700;
+        margin-left: 30px;
+    }
+    .counter{
+        flex-wrap: wrap;
+    }
+    .counter div {
+        width: 50%;
+    }
+    .desc {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .desc1 {
+        width: 90%;
+        align-items: center;
+    }
+    .resume{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .resume1{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        width: 90%;
+    }
+    .skill{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .skill1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .skill1 p {
+        display: flex;
+        align-self: flex-start;
+        margin-left: 10%;
+        font-weight: bold;
+    }
+    .images{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-bottom: 7%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .flex-fix{
+        flex-direction: column;
+        width: 100%;
+    }
+    .member{
+        position: relative;
+        width: 100%;
+        flex-direction: row;
+        overflow: hidden;
+    }
+    .member img {
+        margin-bottom: 3%;
+    } 
+    .member:hover .member-caption{
+        opacity: 1;
+    }
+    .test{
+        align-items: center;
+        flex-direction: column;
+    }
+    .test1{
+        flex-direction: column;
+        width: 90%;
+        margin: 2%;
+        padding: 4%;
+    }
+    .test1 div{
+      justify-content: flex-start;
+    } 
+    .test1 p span {
+        display: block;
+        width: max-content;
+    }
+    .test1 div p {
+        margin-left: 3%;
+    }
+    .test1 p {
+        line-height: 1.5;
+    }
+    .btn button {
+        width: 56%;
+        padding: 3%;
+        margin: 11%;
+        font-size: 1.2rem;
+    }
+    .heading h2 {
+        font-size: 4rem; 
+    }
+    .testmain .heading h2 {
+        font-size: 3.5rem;
+    }
+    .contact{
+       flex-direction: column-reverse;
+       padding-bottom: 20%;
+    }
+    .contact1{
+        width:90%;  
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .contact1 p:nth-child(1){
+        line-height: 1.8;
+    }
+    .contact2{
+        flex-direction: column;
+        width: 90%;
+    }
+    .for{
+       flex-direction: column; 
+    }
+    .for div {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5%;
+    }
+    input[type=text] {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .contact2 button{
+        width: 54%;
+        font-size: 1.2rem;
+        padding: 3%;
+        font-weight: bold;
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer  > a {
+        font-weight: 530;
+        font-size: 1.15rem;
+    }
+    .footer ul {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer p {
+        width: 100%;
+        text-align: center;
+        padding: 2%;
+    }
+}
+@media only screen and (min-width:601px) and (max-width:768px) {
+    .navbar{
+        padding-top: 10px 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .navbar ul {
+        visibility: hidden;
+    }
+    .unvisible{
+        visibility: visible;
+    }
+    .home  > a{ 
+        width: 20%;
+    }
+    .home p {
+        color: #f8f9fa;
+        font-size: 1.5rem;
+    }
+    .about{
+     flex-direction: column;
+    }
+    .about1{
+        width: 90%;
+        justify-self: center;
+        align-items: flex-start;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .about2{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .about2 a {
+        text-align: center;
+        padding: 1%;
+        width: 34%;
+        margin-left: 5%;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .counter{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .counter div {
+        width: 50%;
+        align-items: center;
+    }
+    .desc {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .desc1 {
+        width: 90%;
+        align-items: center;
+    }
+    .resume{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .resume1{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        width: 90%;
+    }
+    .skill{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .skill1{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content: center;
+        width: 80%;
+    }
+    .images{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-bottom: 7%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .flex-fix{
+        flex-direction: column;
+        width: 50%;
+    }
+    .member{
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-direction: row;
+        overflow: hidden;
+    }
+    .member img {
+        margin-bottom: 3%;
+    } 
+    .member:hover .member-caption{
+        opacity: 1;
+    }
+    .test{
+        align-items: center;
+        flex-direction: column;
+    }
+    .test1{
+        flex-direction: column;
+        width: 90%;
+        margin: 2%;
+        padding: 4%;
+    }
+    .test1 div{
+      justify-content: flex-start;
+    } 
+    .test1 p span {
+        display: block;
+        width: max-content;
+    }
+    .test1 div p {
+        margin-left: 3%;
+    }
+    .test1 p {
+        line-height: 1.5;
+    }
+    .btn button {
+        width: 40%;
+    }
+    .contact{
+       flex-direction: column-reverse;
+    }
+    .contact1{
+        width:90%;  
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .contact2{
+        flex-direction: column;
+        width: 90%;
+    }
+    .for{
+       flex-direction: column; 
+    }
+    .for div {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5%;
+    }
+    input[type=text] {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .contact2 button{
+        width: 34%;
+        padding: 1%;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer ul {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer p {
+        width: 100%;
+        text-align: center;
+        padding: 2%;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:992px) {
+    .navbar{
+        padding-top: 10px 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .navbar ul {
+        visibility: hidden;
+    }
+    .unvisible{
+        visibility: visible;
+    }
+    .home  > a{ 
+        width: 20%;
+    }
+    .home p {
+        color: #f8f9fa;
+        font-size: 1.5rem;
+    }
+    .heading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f8f9fa;
+        position: relative;  
+    }
+    .heading h2 {
+        opacity: 0.06;
+        font-size: 6rem; 
+        font-weight: bolder;
+    }
+    .heading p {
+        position: absolute;
+        font-size: 2.25rem;
+        opacity: 2;
+        color: black;
+    }
+    .heading span{
+        border-bottom: 2px solid #20c997;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-bottom: 1%;
+        margin-left: 25%;
+    }
+    .about{
+     flex-direction: column;
+    }
+    .about1{
+        width: 90%;
+        justify-self: center;
+        align-items: flex-start;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .about2{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .about2 a {
+        text-align: center;
+        padding: 1%;
+        width: 34%;
+        margin-left: 5%;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .counter{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .counter div {
+        width: 50%;
+        align-items: center;
+    }
+    .desc {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .desc1 {
+        width: 90%;
+        align-items: center;
+    }
+    .resume{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .resume1{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        width: 90%;
+    }
+    .skill{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .skill1{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content: center;
+        width: 80%;
+    }
+    .images{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-bottom: 7%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .flex-fix{
+        flex-direction: column;
+        width: 50%;
+    }
+    .member{
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-direction: row;
+        overflow: hidden;
+    }
+    .member img {
+        margin-bottom: 3%;
+    } 
+    .member:hover .member-caption{
+        opacity: 1;
+    }
+    .flex-fix div:nth-child(3){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .test{
+        align-items: center;
+        flex-direction: column;
+    }
+    .test1{
+        flex-direction: column;
+        width: 90%;
+        margin: 2%;
+        padding: 4%;
+    }
+    .test1 div{
+      justify-content: flex-start;
+    } 
+    .test1 p span {
+        display: block;
+        width: max-content;
+    }
+    .test1 div p {
+        margin-left: 3%;
+    }
+    .test1 p {
+        line-height: 1.5;
+    }
+    .btn button {
+        width: 40%;
+    }
+    .contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:30%;
+        margin-bottom: 12%;
+    }
+    .contact1 h2 , .contact2 h2 {
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: black;
+    }
+    .about1 p{
+        line-height: 1.5;
+    }
+    .contact2{
+        width:70%;
+        display: flex;
+        flex-direction: column;
+    }
+    input[type=text] {
+        width: 90%;
+        border: 1px solid #dae1e3;
+        border-radius: 3px;
+        padding: 3%;
+    }
+    input[type=email]{
+        width: 90%;
+        border: 1px solid #dae1e3;
+        border-radius: 3px;
+        padding: 3%;
+    }
+    .for{
+        display: flex;
+        flex-direction: column; 
+        margin-bottom: 3%; 
+    }
+    .for div {
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    textarea{
+        width: 100%;
+        margin-top: 1%;
+        border: 1px solid #dae1e3;
+        border-radius: 3px;
+        padding:2%;
+    }
+    .contact2 button{
+        border-radius: 99em;
+        text-align: center;
+        cursor: pointer;
+        width: 40%;
+        padding: 2%;
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+    .contact2 p {
+        text-align: center;
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer ul {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer p {
+        width: 100%;
+        text-align: center;
+        padding: 2%;
+    }
+    
+}
